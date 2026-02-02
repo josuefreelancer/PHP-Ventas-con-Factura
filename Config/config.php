@@ -1,0 +1,7 @@
+<?php
+const host="localhost";
+const user="root";
+const pass="";
+const db="ventas";
+const charset="utf8";
+?>
