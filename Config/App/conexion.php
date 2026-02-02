@@ -1,8 +1,7 @@
 <?php
 class Conexion{
     private $conect;
-    public function __construct()
-    {
+    public function __construct(){
         $pdo = "mysql:local=".host.";dbname=".db.";charset=".charset."";
         try{
             $this->conect = new PDO($pdo,user,pass);
